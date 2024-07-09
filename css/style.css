@@ -84,6 +84,7 @@ body {
 .header__btn {
   background: rgb(13, 19, 33);
   color: #fff;
+  text-decoration: none;
 }
 
 /* Header part Ends */
@@ -370,4 +371,29 @@ section {
   font-weight: 600;
   border: none;
   cursor: pointer;
+}
+
+.footer {
+  background: rgba(13, 19, 33, 0.03);
+  height: 10rem;
+}
+
+.footer__container {
+  height: 100%;
+  width: 114rem;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer__container p {
+  font-size: 2rem;
+  font-weight: 600;
+}
+
+.social_box img {
+  width: 3.6rem;
+  height: 3.6rem;
+  margin-right: 1rem;
 }
