@@ -205,8 +205,11 @@ section {
   margin-top: 4.8rem;
 }
 
-.inspiration__content img {
+.inspiration__content .iframe {
+  min-height: 55.5rem;
   width: 100%;
+  object-fit: cover;
+  border-radius: 1.6rem;
 }
 /* inspiration section ends here */
 /* target section start here */
